@@ -1,0 +1,15 @@
+name: TestPing
+version: 1.0.0
+main: com.finsherov.testping.TestPingPlugin
+author: Finsherov
+description: Network ping utility
+commands:
+  testping:
+    description: Checks network resource availability
+    usage: /testping <host>
+    permission: testping.use
+    permission-message: §cУ вас нет разрешения на использование этой команды.
+permissions:
+  testping.use:
+    description: Allows using /testping
+    default: op
